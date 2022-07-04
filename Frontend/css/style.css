@@ -1,0 +1,437 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Nav Bar css */
+.navbar-brand{
+    padding: 0 !important;
+}
+.nav-item{
+    margin-right: 17px;
+}
+.nav-item a{
+    color: #000000 !important;
+    font-size: 20px;
+}
+.nav-item a:hover{
+    color: #ed5217 !important;
+}
+.btn-search{
+    background-color: #ed5217;
+    color: #fff;
+}
+.btn-search:hover{
+    background-color: #fff;
+    color: #000000;
+    border-color: #ed5217;
+}
+
+/* Index page css */
+
+.feature-area{
+    padding: 60px 0 40px;
+}
+.feature-icon{
+    height: 90px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    font-size: 35px;
+    color: #000;
+}
+.feature-item{
+    background: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: hidden
+}
+.feature-content{
+    overflow: hidden;
+    padding-left: 20px;
+}
+.feature-content h5{
+    color: #ed5217;
+}
+.nav-tabs{
+    border-bottom: 0!important;
+}
+.nav-tabs .nav-item:hover{
+    cursor: pointer;
+}
+.nav-img{
+    width: 160px;
+    height: 104px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ddd !important;
+    border-radius: 3px;
+    margin-bottom: 50px !important;
+}
+
+.nav-item .active{
+    border-color: #ed5217 !important;
+}
+.nav-img img{
+    margin-top: 15px;
+}
+
+.pricing-title h1{
+    text-align: center;
+    color: #ed5217;
+}
+.service-box{
+    background-color: #ed5217;
+    position: relative;
+}
+.service-title h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.service-title{
+    text-align: center;
+    padding: 15px;
+}
+.service-pic img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+section{
+    background-color: #f8f8f8;
+}
+.pricing-overlay{
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.pricing-text{
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(7,47,79,.6);
+    padding: 20px 30px;
+}
+.pricing-text span{
+    font-size: 30px !important;
+    font-weight: 600;
+    color: #ed5217;
+}
+.pricing-text h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.pricing-text p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.pricing-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.pricing-overlay:hover {
+    opacity: 1;
+}
+
+.pricing-overlay:hover > * {
+    transform: translateY(0);
+}
+
+/* servies page css */
+.page-header{
+    background: url(Services_pic2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.p-0{
+    padding: 0 !important;
+}
+.mb-5{
+    margin-bottom: 80px !important;
+}
+.page-header-inner {
+    background: rgba(0, 0, 0, .5);
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.main-services{
+    padding: 100px 0 78px;
+    background: #f8f8f8;
+}
+.col-12 span{
+    font-size: 16px;
+    color: #ed5217;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.col-12 h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #444;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    margin-top: 15px;
+}
+.services-wraper{
+    border: none;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-text h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ed5217;
+}
+.service-text p{
+    margin-bottom: 0;
+    color: #777;
+    line-height: 30px;
+    font-size: 15px;
+}
+.our-team{
+    padding: 30px 0 30px;
+
+}
+.team-area{
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    border: 1px solid rgba(4,101,224,.15);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+.team-pic{
+    display: block;
+    width: 100%;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image-overlay:hover > * {
+    transform: translateY(0);
+}
+.team-name{
+
+    color: rgb(255, 255, 255);
+    
+}
+.booking-area{
+    background: #f8f8f8;
+    
+}
+.booking-area h1{
+    color: #ed5217;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+textarea {
+    width: 300px;
+    height: 150px;
+  }
+
+
+  /* contact page */
+.contact-text h2{
+    color: #ed5217;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.btn-contact{
+    background-color: #ed5217;
+    color: #fff;
+}
+.location-wrap{
+    background: #f8f8f8;
+    padding: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.location-icon{
+    height: 90px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    font-size: 30px;
+    color: #000000;
+}
+.location-text{
+    overflow: hidden;
+    padding-left: 20px;
+}
+.location-text h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ed5217;
+
+}
+.location-text span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+/* page footer */
+.footer-top{
+    padding: 80px 0 50px;
+    background: #00325a;
+}
+.services-style{
+    list-style-type: inherit;
+}
+.services-style li:hover{
+    color: #ed5217;
+}
+.footer-bottom{
+    padding: 30px 0;
+    background: #072f4f;
+}
+.social-icon{
+    font-size: 25px;
+}
+.social-icon-footer ul li{
+    list-style-type: none;
+    font-size: 25px;
+    color: #fff;
+    padding-right: 15px;
+}
+.social-icon-footer ul li:hover{
+    color: #ed5217;
+}
+.footer-icon .bi{
+    color: #ed5217;
+    font-size: 23px;
+    padding-right: 5px;
+}
+.footer-h4{
+    color: #ed5217;
+}
+
+/* About Us page */
+.about-company{
+    padding: 60px 0 80px;
+}
+.about-btn{
+    padding: 25px;
+}
+.site-title span{
+    color: #ed5217;
+}
+.site-title h2{
+    color: #444;
+}
+.site-text{
+    color: #333;
+}
+.counter-area{
+    padding: 20px 0 60px;
+}
+.counter-grid{
+    margin: 10 0;
+    text-align: center;
+}
+.team{
+    padding: 60px 0 40px;
+}
+.social-icon ul li{
+    list-style-type: none;
+    font-size: 25px;
+    color: #ed5217;
+    padding-right: 15px;
+}
+.social-icon-a{
+    list-style-type: none;
+    font-size: 25px;
+    color: #ed5217;
+    padding-right: 10px;
+}
+.social-icon-a:hover{
+    color: black;
+}
+
+/* Back to Top */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+#btn-back-to-top i{
+    font-size: 40px;
+    color: #ed5217;
+}
+
+
+/* 404 page */
+.flat-row{
+    margin-top: 180px;
+}
+.header-error{
+    font-size: 130px;
+    line-height: 130px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.content-error h2{
+    line-height: 50px;
+    font-size: 30px;
+}
+.content-error p{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+}
+.content-error a{
+    position: relative;
+    color: #f63440;
+    font-weight: 600;
+}
